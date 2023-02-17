@@ -16,7 +16,7 @@
   flex-basis: 100%;
   flex-wrap: wrap;
   /* Some changes */
-  /* max-height: 100vh; */
+  max-height: 100vh;
   max-width: 100%;
   overflow: hidden;
 }
