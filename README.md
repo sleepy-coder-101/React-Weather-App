@@ -4,9 +4,19 @@
   <img src="/public/readme/banner.png" />
 </p>
 
-![GitHub repo size](https://img.shields.io/github/repo-size/sleepy-coder-101/Gericht?logo=Files&style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/sleepy-coder-101/Gericht?logo=Apache%20Spark&style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/sleepy-coder-101/Gericht?logo=GitHub&style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/sleepy-coder-101/React-Weather-App?logo=Files&style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/sleepy-coder-101/React-Weather-App?logo=Apache%20Spark&style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/sleepy-coder-101/React-Weather-App?logo=GitHub&style=for-the-badge)
 
-This GitHub project presents the UI/UX designs for Gerícht, a fine dining restaurant, providing an in-depth look at the restaurant's layout and aesthetic vision
+This is a simple weather application built using React, MUI and the OpenWeatherMap API. It allows users to search for the current weather conditions of any location worldwide. The app also displays the temperature, humidity, wind speed, pressure and current time of the queried location.
+
+## Features
+
+- Search for weather information of any location
+- Displays the current
+  - time and location
+  - temperature and real feel
+  - wind speed and visibility
+  - humidity and pressure
+  - sunrise and sunset timings
 
 ## Live
 
@@ -37,13 +47,13 @@ npx create-vite-app
 Clone this repository
 
 ```bash
-git clone https://github.com/sleepy-coder-101/Gericht
+git clone https://github.com/sleepy-coder-101/React-Weather-App
 ```
 
 Change to project directory
 
 ```bash
-cd Gericht
+cd React-Weather-App
 ```
 
 Install required NPM Packages
@@ -51,6 +61,8 @@ Install required NPM Packages
 ```bash
 npm install
 ```
+
+Get an API key from OpenWeatherMap and add it to the .env file as `VITE_API_KEY`
 
 Start development server
 
